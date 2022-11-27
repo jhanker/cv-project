@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500&family=Roboto:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 233, 233);
+    font-family: roboto, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(252, 252, 165);
+    
+}
+
+.profile-photo{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+.first-section-details{
+    float: left;
+    padding: 20px;
+}
+.second-section{
+    float: right; 
+    padding: 20px;
+}
+header{
+    backgroud-color: rgb(252, 252, 165);
+    width: 100vh;
+    height: 200px;
+
+}
+hr.new5 {
+    border: 3px solid rgb(6, 6, 6);
+    border-radius: 5px;
+  }
+.clear-both{
+    clear: both;
+}
+.main-div .left-container{
+    float: left;
+    width: 30%;
+}
+.main-div .right-container{
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.main-section{
+    background-color:  rgb(252, 252, 165);
+}
+.main-section .main-div{
+    background-color:  rgb(252, 252, 165);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+hr{
+    border: 1px solid black;
+    border-radius: 5px;
+    clear: both;
+   margin-bottom: 30px;
+}
+.right-container{
+    background-color: rgb(252, 252, 165);
+}
+.main-div{
+    background-color:rgb(252, 252, 165);
+}
+.main-section{
+    background-color:  rgb(252, 252, 165);
+    clear: both;
+}
+.light-bg{
+    border: none;
+}
+.footer-section{
+    background-color: black;
+    height: 80px;
+    margin-top: -25px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+
+.paragraph a{
+    display: inline-block;
+}
+.footer-section .social-links ul li{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.footer-section .social-links ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-section .social-links ul li{
+    margin: 20px;
+}
+
+.copywrite-section p a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
